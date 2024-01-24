@@ -1,0 +1,26 @@
+#Discuss{
+    padding: 100px 0;
+    .container{
+        .sectionHeader{
+            text-align: center;
+        }
+        .cards{
+            padding-top: 80px;
+            .service{
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                h3{
+                    font-size: 22px;
+                    margin: 20px 0;
+                }
+                p{
+                    color: #777;
+                }
+            }
+        }
+    }
+}

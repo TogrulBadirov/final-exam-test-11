@@ -1,0 +1,60 @@
+#FreeVideos{
+    padding: 100px 0;
+    .container{
+        .sectionHeader{
+            text-align: center;
+        }
+        .cards{
+            padding-top: 80px;
+            .service{
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                h3{
+                    font-size: 22px;
+                    margin: 20px 0;
+                }
+                p{
+                    color: #777;
+                }
+            }
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+          
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            position: relative;
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .circle{
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                background-color: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+          }
+          
+          .swiper-slide img {
+            display: block;
+            object-fit: cover;
+            filter: brightness(0.5);
+          }
+          .swiper-pagination-bullet{
+            background-color: #777;
+          }
+    }
+}
